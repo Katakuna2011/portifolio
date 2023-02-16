@@ -117,13 +117,19 @@ body {
     font-weight: 400;
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1000px) {
     .cabecalho{
         padding: 9%;
     }
 
     .cabecalho__menu {
         justify-content: center;
+    }
+
+    body {
+        box-sizing: border-box;
+        background-color: var(--cor-hover);
+        color: var(--cor-secundaria);
     }
 
     .apresentacao{
