@@ -162,4 +162,25 @@ body {
     .apresentacao__imagem {
         width: 75%;
     }
+
+    .rodape__container {
+        position: relative;
+        min-height: 100%;
+        left: 0;
+        bottom: 0;
+    }
+
+    .rodape {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        padding: 18px;
+        color: var(--cor-primaria);
+        background-color: var(--cor-terciaria);
+        text-align: center;
+        font-family: var(--fonte-secundaria);
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
 }
